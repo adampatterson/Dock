@@ -1,40 +1,53 @@
 /* Large screens */
+
 @media (min-width: 1200px) {
   body {
     border-top: 3px solid blue;
   }
 }
+
 /* Smaller than standard 960 (devices and browsers) */
+
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
   body {
     border-top: 3px solid purple;
   }
 }
+
 /* Smaller than standard 960 (devices and browsers) */
+
 @media only screen and (max-width: 959px) {
   body {
     border-top: 3px dashed green;
   }
 }
+
 /* Tablet Portrait size to standard 960 (devices and browsers) */
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   body {
     border-top: 3px solid green;
   }
 }
+
 /* All Mobile Sizes (devices and browser) */
+
 @media only screen and (max-width: 767px) {
   body {
     border-top: 3px dashed red;
   }
 }
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   body {
     border-top: 3px solid red;
   }
 }
+
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
 @media only screen and (max-width: 479px) {
   body {
     border-top: 3px solid orange;

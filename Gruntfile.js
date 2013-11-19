@@ -3,6 +3,31 @@ module.exports = function(grunt) {
   grunt.registerTask('watch', [ 'watch' ]);
  
   grunt.initConfig({
+	
+	recess: {
+		options: {
+            compile: true,
+        },
+	    min: {
+	        options: {
+				compress: true
+	        },
+	        files: {
+	            "assets/css/style.min.css": "assets/less/style.less",
+				"assets/css/responsive.min.css": "assets/less/responsive.less"
+	        }
+	    },
+		dock: {
+	        options: {
+				compress: false
+	        },
+	        files: {
+	            "assets/css/style.css": "assets/less/style.less",
+				"assets/css/responsive.css": "assets/less/responsive.less"
+	        }
+	    }
+	},
+	
     concat: {
       js: {
         options: {
@@ -18,6 +43,7 @@ module.exports = function(grunt) {
         dest: 'assets/js/application.min.js'
       },
     },
+
     uglify: {
       options: {
         mangle: false
@@ -28,14 +54,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    less: {
-      style: {
-        files: {
-          "assets/css/style.css": "assets/less/style.less",
-		  "assets/css/responsive.css": "assets/less/responsive.less"
-        }
-      }
-    },
+
     watch: {
       js: {
         files: ['assets/js/*.js'],
@@ -46,17 +65,18 @@ module.exports = function(grunt) {
       },
       css: {
         files: ['assets/less/*.less'],
-        tasks: ['less:style']
+        tasks: ['recess']
         // options: {
         //    livereload: true,
         //  }
       }
     }
+
   });
  
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-contrib-watch');
- 
 };
