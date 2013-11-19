@@ -9,7 +9,11 @@ module.exports = function(grunt) {
           separator: ';'
         },
         src: [
-          'javascript/*.js'
+          // 'assets/js/*.js'
+			'assets/js/jquery.js',
+			'assets/js/html5shiv.js',
+			'assets/js/retina.js',
+			'assets/js/application.js'
         ],
         dest: 'assets/js/application.min.js'
       },
@@ -20,7 +24,7 @@ module.exports = function(grunt) {
       },
       js: {
         files: {
-          'assets/js/application.js': ['assets/js/application.min.js']
+          'assets/js/application.min.js': "assets/js/application.js"
         }
       }
     },
@@ -34,18 +38,18 @@ module.exports = function(grunt) {
     },
     watch: {
       js: {
-        files: ['javascript/*.js'],
-        tasks: ['concat:js', 'uglify:js'],
-        options: {
-          livereload: true,
-        }
+        files: ['assets/js/*.js'],
+        tasks: ['concat:js', 'uglify:js']
+        // options: {
+        //    livereload: true,
+        //  }
       },
       css: {
-        files: ['less/*.less'],
-        tasks: ['less:style'],
-        options: {
-          livereload: true,
-        }
+        files: ['assets/less/*.less'],
+        tasks: ['less:style']
+        // options: {
+        //    livereload: true,
+        //  }
       }
     }
   });
