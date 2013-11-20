@@ -268,14 +268,6 @@ a:focus {
 .container:after {
   clear: both;
 }
-.container:before,
-.container:after {
-  content: " ";
-  display: table;
-}
-.container:after {
-  clear: both;
-}
 .container-fluid {
   padding-right: 20px;
   padding-left: 20px;
@@ -286,14 +278,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.container-fluid:after {
-  clear: both;
-}
-.container-fluid:before,
-.container-fluid:after {
-  content: " ";
-  display: table;
 }
 .container-fluid:after {
   clear: both;
@@ -316,14 +300,6 @@ a:focus {
 .center12:after {
   clear: both;
 }
-.center12:before,
-.center12:after {
-  content: " ";
-  display: table;
-}
-.center12:after {
-  clear: both;
-}
 .center11 {
   min-height: 1px;
   width: 880px;
@@ -338,14 +314,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.center11:after {
-  clear: both;
-}
-.center11:before,
-.center11:after {
-  content: " ";
-  display: table;
 }
 .center11:after {
   clear: both;
@@ -368,14 +336,6 @@ a:focus {
 .center10:after {
   clear: both;
 }
-.center10:before,
-.center10:after {
-  content: " ";
-  display: table;
-}
-.center10:after {
-  clear: both;
-}
 .center9 {
   min-height: 1px;
   width: 720px;
@@ -390,14 +350,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.center9:after {
-  clear: both;
-}
-.center9:before,
-.center9:after {
-  content: " ";
-  display: table;
 }
 .center9:after {
   clear: both;
@@ -420,14 +372,6 @@ a:focus {
 .center8:after {
   clear: both;
 }
-.center8:before,
-.center8:after {
-  content: " ";
-  display: table;
-}
-.center8:after {
-  clear: both;
-}
 .center7 {
   min-height: 1px;
   width: 560px;
@@ -442,14 +386,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.center7:after {
-  clear: both;
-}
-.center7:before,
-.center7:after {
-  content: " ";
-  display: table;
 }
 .center7:after {
   clear: both;
@@ -472,14 +408,6 @@ a:focus {
 .center6:after {
   clear: both;
 }
-.center6:before,
-.center6:after {
-  content: " ";
-  display: table;
-}
-.center6:after {
-  clear: both;
-}
 .center5 {
   min-height: 1px;
   width: 400px;
@@ -494,14 +422,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.center5:after {
-  clear: both;
-}
-.center5:before,
-.center5:after {
-  content: " ";
-  display: table;
 }
 .center5:after {
   clear: both;
@@ -524,14 +444,6 @@ a:focus {
 .center4:after {
   clear: both;
 }
-.center4:before,
-.center4:after {
-  content: " ";
-  display: table;
-}
-.center4:after {
-  clear: both;
-}
 .center3 {
   min-height: 1px;
   width: 240px;
@@ -546,14 +458,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.center3:after {
-  clear: both;
-}
-.center3:before,
-.center3:after {
-  content: " ";
-  display: table;
 }
 .center3:after {
   clear: both;
@@ -576,14 +480,6 @@ a:focus {
 .center2:after {
   clear: both;
 }
-.center2:before,
-.center2:after {
-  content: " ";
-  display: table;
-}
-.center2:after {
-  clear: both;
-}
 .center1 {
   min-height: 1px;
   width: 80px;
@@ -602,14 +498,6 @@ a:focus {
 .center1:after {
   clear: both;
 }
-.center1:before,
-.center1:after {
-  content: " ";
-  display: table;
-}
-.center1:after {
-  clear: both;
-}
 .row {
   margin-left: -20px;
   *zoom: 1;
@@ -619,14 +507,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.row:after {
-  clear: both;
-}
-.row:before,
-.row:after {
-  content: " ";
-  display: table;
 }
 .row:after {
   clear: both;
@@ -723,14 +603,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.row-fluid:after {
-  clear: both;
-}
-.row-fluid:before,
-.row-fluid:after {
-  content: " ";
-  display: table;
 }
 .row-fluid:after {
   clear: both;
@@ -922,14 +794,6 @@ a:focus {
 .one-half:after {
   clear: both;
 }
-.one-half:before,
-.one-half:after {
-  content: " ";
-  display: table;
-}
-.one-half:after {
-  clear: both;
-}
 .one-third {
   float: left;
   min-height: 1px;
@@ -944,14 +808,6 @@ a:focus {
   display: table;
   content: "";
   line-height: 0;
-}
-.one-third:after {
-  clear: both;
-}
-.one-third:before,
-.one-third:after {
-  content: " ";
-  display: table;
 }
 .one-third:after {
   clear: both;
@@ -974,14 +830,6 @@ a:focus {
 .one-quarter:after {
   clear: both;
 }
-.one-quarter:before,
-.one-quarter:after {
-  content: " ";
-  display: table;
-}
-.one-quarter:after {
-  clear: both;
-}
 one-three-quarter {
   float: left;
   min-height: 1px;
@@ -996,14 +844,6 @@ one-three-quarter:after {
   display: table;
   content: "";
   line-height: 0;
-}
-one-three-quarter:after {
-  clear: both;
-}
-one-three-quarter:before,
-one-three-quarter:after {
-  content: " ";
-  display: table;
 }
 one-three-quarter:after {
   clear: both;
@@ -1194,14 +1034,6 @@ dd {
 .dl-horizontal:after {
   clear: both;
 }
-.dl-horizontal:before,
-.dl-horizontal:after {
-  content: " ";
-  display: table;
-}
-.dl-horizontal:after {
-  clear: both;
-}
 .dl-horizontal dt {
   float: left;
   width: 160px;
@@ -1354,14 +1186,6 @@ address {
   .center12:after {
     clear: both;
   }
-  .center12:before,
-  .center12:after {
-    content: " ";
-    display: table;
-  }
-  .center12:after {
-    clear: both;
-  }
   .center11 {
     min-height: 1px;
     width: 1100px;
@@ -1376,14 +1200,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center11:after {
-    clear: both;
-  }
-  .center11:before,
-  .center11:after {
-    content: " ";
-    display: table;
   }
   .center11:after {
     clear: both;
@@ -1406,14 +1222,6 @@ address {
   .center10:after {
     clear: both;
   }
-  .center10:before,
-  .center10:after {
-    content: " ";
-    display: table;
-  }
-  .center10:after {
-    clear: both;
-  }
   .center9 {
     min-height: 1px;
     width: 900px;
@@ -1428,14 +1236,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center9:after {
-    clear: both;
-  }
-  .center9:before,
-  .center9:after {
-    content: " ";
-    display: table;
   }
   .center9:after {
     clear: both;
@@ -1458,14 +1258,6 @@ address {
   .center8:after {
     clear: both;
   }
-  .center8:before,
-  .center8:after {
-    content: " ";
-    display: table;
-  }
-  .center8:after {
-    clear: both;
-  }
   .center7 {
     min-height: 1px;
     width: 700px;
@@ -1480,14 +1272,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center7:after {
-    clear: both;
-  }
-  .center7:before,
-  .center7:after {
-    content: " ";
-    display: table;
   }
   .center7:after {
     clear: both;
@@ -1510,14 +1294,6 @@ address {
   .center6:after {
     clear: both;
   }
-  .center6:before,
-  .center6:after {
-    content: " ";
-    display: table;
-  }
-  .center6:after {
-    clear: both;
-  }
   .center5 {
     min-height: 1px;
     width: 500px;
@@ -1532,14 +1308,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center5:after {
-    clear: both;
-  }
-  .center5:before,
-  .center5:after {
-    content: " ";
-    display: table;
   }
   .center5:after {
     clear: both;
@@ -1562,14 +1330,6 @@ address {
   .center4:after {
     clear: both;
   }
-  .center4:before,
-  .center4:after {
-    content: " ";
-    display: table;
-  }
-  .center4:after {
-    clear: both;
-  }
   .center3 {
     min-height: 1px;
     width: 300px;
@@ -1584,14 +1344,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center3:after {
-    clear: both;
-  }
-  .center3:before,
-  .center3:after {
-    content: " ";
-    display: table;
   }
   .center3:after {
     clear: both;
@@ -1614,14 +1366,6 @@ address {
   .center2:after {
     clear: both;
   }
-  .center2:before,
-  .center2:after {
-    content: " ";
-    display: table;
-  }
-  .center2:after {
-    clear: both;
-  }
   .center1 {
     min-height: 1px;
     width: 100px;
@@ -1640,14 +1384,6 @@ address {
   .center1:after {
     clear: both;
   }
-  .center1:before,
-  .center1:after {
-    content: " ";
-    display: table;
-  }
-  .center1:after {
-    clear: both;
-  }
   .row {
     margin-left: -30px;
     *zoom: 1;
@@ -1657,14 +1393,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .row:after {
-    clear: both;
-  }
-  .row:before,
-  .row:after {
-    content: " ";
-    display: table;
   }
   .row:after {
     clear: both;
@@ -1761,14 +1489,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .row-fluid:after {
-    clear: both;
-  }
-  .row-fluid:before,
-  .row-fluid:after {
-    content: " ";
-    display: table;
   }
   .row-fluid:after {
     clear: both;
@@ -2025,14 +1745,6 @@ address {
   .center12:after {
     clear: both;
   }
-  .center12:before,
-  .center12:after {
-    content: " ";
-    display: table;
-  }
-  .center12:after {
-    clear: both;
-  }
   .center11 {
     min-height: 1px;
     width: 682px;
@@ -2047,14 +1759,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center11:after {
-    clear: both;
-  }
-  .center11:before,
-  .center11:after {
-    content: " ";
-    display: table;
   }
   .center11:after {
     clear: both;
@@ -2077,14 +1781,6 @@ address {
   .center10:after {
     clear: both;
   }
-  .center10:before,
-  .center10:after {
-    content: " ";
-    display: table;
-  }
-  .center10:after {
-    clear: both;
-  }
   .center9 {
     min-height: 1px;
     width: 558px;
@@ -2099,14 +1795,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center9:after {
-    clear: both;
-  }
-  .center9:before,
-  .center9:after {
-    content: " ";
-    display: table;
   }
   .center9:after {
     clear: both;
@@ -2129,14 +1817,6 @@ address {
   .center8:after {
     clear: both;
   }
-  .center8:before,
-  .center8:after {
-    content: " ";
-    display: table;
-  }
-  .center8:after {
-    clear: both;
-  }
   .center7 {
     min-height: 1px;
     width: 434px;
@@ -2151,14 +1831,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center7:after {
-    clear: both;
-  }
-  .center7:before,
-  .center7:after {
-    content: " ";
-    display: table;
   }
   .center7:after {
     clear: both;
@@ -2181,14 +1853,6 @@ address {
   .center6:after {
     clear: both;
   }
-  .center6:before,
-  .center6:after {
-    content: " ";
-    display: table;
-  }
-  .center6:after {
-    clear: both;
-  }
   .center5 {
     min-height: 1px;
     width: 310px;
@@ -2203,14 +1867,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center5:after {
-    clear: both;
-  }
-  .center5:before,
-  .center5:after {
-    content: " ";
-    display: table;
   }
   .center5:after {
     clear: both;
@@ -2233,14 +1889,6 @@ address {
   .center4:after {
     clear: both;
   }
-  .center4:before,
-  .center4:after {
-    content: " ";
-    display: table;
-  }
-  .center4:after {
-    clear: both;
-  }
   .center3 {
     min-height: 1px;
     width: 186px;
@@ -2255,14 +1903,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .center3:after {
-    clear: both;
-  }
-  .center3:before,
-  .center3:after {
-    content: " ";
-    display: table;
   }
   .center3:after {
     clear: both;
@@ -2285,14 +1925,6 @@ address {
   .center2:after {
     clear: both;
   }
-  .center2:before,
-  .center2:after {
-    content: " ";
-    display: table;
-  }
-  .center2:after {
-    clear: both;
-  }
   .center1 {
     min-height: 1px;
     width: 62px;
@@ -2311,14 +1943,6 @@ address {
   .center1:after {
     clear: both;
   }
-  .center1:before,
-  .center1:after {
-    content: " ";
-    display: table;
-  }
-  .center1:after {
-    clear: both;
-  }
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -2328,14 +1952,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .row:after {
-    clear: both;
-  }
-  .row:before,
-  .row:after {
-    content: " ";
-    display: table;
   }
   .row:after {
     clear: both;
@@ -2432,14 +2048,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .row-fluid:after {
-    clear: both;
-  }
-  .row-fluid:before,
-  .row-fluid:after {
-    content: " ";
-    display: table;
   }
   .row-fluid:after {
     clear: both;
@@ -2832,14 +2440,6 @@ address {
   .phone-half:after {
     clear: both;
   }
-  .phone-half:before,
-  .phone-half:after {
-    content: " ";
-    display: table;
-  }
-  .phone-half:after {
-    clear: both;
-  }
   .phone-third {
     float: left;
     min-height: 1px;
@@ -2854,14 +2454,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .phone-third:after {
-    clear: both;
-  }
-  .phone-third:before,
-  .phone-third:after {
-    content: " ";
-    display: table;
   }
   .phone-third:after {
     clear: both;
@@ -2884,14 +2476,6 @@ address {
   .phone-quarter:after {
     clear: both;
   }
-  .phone-quarter:before,
-  .phone-quarter:after {
-    content: " ";
-    display: table;
-  }
-  .phone-quarter:after {
-    clear: both;
-  }
   .phone-three-quarter {
     float: left;
     min-height: 1px;
@@ -2906,14 +2490,6 @@ address {
     display: table;
     content: "";
     line-height: 0;
-  }
-  .phone-three-quarter:after {
-    clear: both;
-  }
-  .phone-three-quarter:before,
-  .phone-three-quarter:after {
-    content: " ";
-    display: table;
   }
   .phone-three-quarter:after {
     clear: both;

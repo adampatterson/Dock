@@ -86,7 +86,7 @@
 
 			<div class="doc-section clearfix" id="grid">
 				<h2>The Grid</h2>
-
+				
 				<div class="example-grid">
 					<div class="bs-docs-grid">
 					    <div class="row show-grid">
@@ -158,12 +158,23 @@
 
 			          </div>
 
-
-
 				</div>
 
 			</div>
 		</section>
+
+		<div class="page-header">
+            <h1>Media</h1>
+        </div>
+		
+		<div class="row">
+			<div class="span6">	
+				<img src="http://placehold.it/130" class="img-rounded">
+				<img src="http://placehold.it/130" class="img-circle">
+				<img src="http://placehold.it/130" class="img-polaroid">
+
+  			</div>
+  		</div>
 
 		<div class="page-header">
             <h1>Typography</h1>
