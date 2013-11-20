@@ -5,7 +5,7 @@
 // Core variables and mixins
 @import "variables"; // Default colors, font-sizes, etc
 @import "reset";
-@import "../override"; // Modify this to override Dock's core variables
+@import "../extend/override"; // Modify this to override Dock's core variables
 @import "mixins";
 
 // Grid system and page structure
@@ -14,10 +14,7 @@
 
 // Base CSS
 @import "type";
-//@import "_code";
 
-// Utility classes
-//@import "_utilities"; // Has to be last to override when necessary
-
+@import "responsive-utilities";
 @import "responsive";
 
