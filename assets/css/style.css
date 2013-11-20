@@ -1096,6 +1096,99 @@ a:focus {
   float: right;
 }
 
+.one-half {
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  *zoom: 1;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.one-half:before,
+.one-half:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.one-half:after {
+  clear: both;
+}
+
+.one-half:before,
+.one-half:after {
+  display: table;
+  content: " ";
+}
+
+.one-half:after {
+  clear: both;
+}
+
+.one-third {
+  float: left;
+  width: 33.33%;
+  min-height: 1px;
+  *zoom: 1;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.one-third:before,
+.one-third:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.one-third:after {
+  clear: both;
+}
+
+.one-third:before,
+.one-third:after {
+  display: table;
+  content: " ";
+}
+
+.one-third:after {
+  clear: both;
+}
+
+.one-quarter {
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  *zoom: 1;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.one-quarter:before,
+.one-quarter:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.one-quarter:after {
+  clear: both;
+}
+
+.one-quarter:before,
+.one-quarter:after {
+  display: table;
+  content: " ";
+}
+
+.one-quarter:after {
+  clear: both;
+}
+
 p {
   margin: 0 0 10px;
 }
@@ -2941,15 +3034,8 @@ address {
     float: none;
     margin-left: 0;
   }
-  [class*="center"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
+  [class*="one"],
+  [class*="center"],
   [class*="span"],
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {

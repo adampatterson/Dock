@@ -1476,15 +1476,8 @@
     float: none;
     margin-left: 0;
   }
-  [class*="center"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
+  [class*="one"],
+  [class*="center"],
   [class*="span"],
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {

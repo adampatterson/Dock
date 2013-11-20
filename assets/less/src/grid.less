@@ -39,3 +39,24 @@
 .row-fluid [class*="span"].pull-right {
   float: right;
 }
+
+.make-percentage( @percentage ) {
+  float: left;
+  min-height: 1px;
+  .box-sizing(border-box);
+  .clearfix();
+  width: percentage(@percentage);
+}
+
+.one-half {
+  .make-percentage(0.5);
+}
+
+.one-third {
+  .make-percentage(0.3333);
+}
+
+.one-quarter {
+  .make-percentage(0.25);
+}
+

@@ -28,7 +28,8 @@
             margin-top: 10px;
             margin-bottom: 20px;
         }
-        .show-grid [class*="span"] {
+        .show-grid [class*="span"],
+        .show-grid [class*="one"] {
             background-color: #eee;
             text-align: center;
             -webkit-border-radius: 3px;
@@ -37,20 +38,24 @@
             min-height: 40px;
             line-height: 40px;
         }
-        .show-grid [class*="span"]:hover {
+        .show-grid [class*="span"]:hover,
+        .show-grid [class*="one"]:hover {
             background-color: #ddd;
         }
         .show-grid .show-grid {
             margin-top: 0;
             margin-bottom: 0;
         }
-        .show-grid .show-grid [class*="span"] {
+        .show-grid .show-grid [class*="span"],
+        .show-grid .show-grid [class*="one"]{
             margin-top: 5px;
         }
-        .show-grid [class*="span"] [class*="span"] {
+        .show-grid [class*="span"] [class*="span"],
+        .show-grid [class*="one"] [class*="one"] {
             background-color: #ccc;
         }
-        .show-grid [class*="span"] [class*="span"] [class*="span"] {
+        .show-grid [class*="span"] [class*="span"] [class*="span"],
+        .show-grid [class*="span"] [class*="span"] [class*="one"] {
             background-color: #999;
         }
     </style>
@@ -133,7 +138,28 @@
 			            <div class="row show-grid">
 			              <div class="span12">12</div>
 			            </div>
+
+                        <div class="row-fluid show-grid">
+                            <div class="one-half">1/2</div>
+                            <div class="one-half">1/2</div>
+                        </div>
+
+                        <div class="row-fluid show-grid">
+                            <div class="one-third">1/3</div>
+                            <div class="one-third">1/3</div>
+                            <div class="one-third">1/3</div>
+                        </div>
+
+                        <div class="row-fluid show-grid">
+                            <div class="one-quarter">1/4</div>
+                            <div class="one-quarter">1/4</div>
+                            <div class="one-half">1/2</div>
+                        </div>
+
 			          </div>
+
+
+
 				</div>
 
 			</div>

@@ -52,16 +52,9 @@
 	    margin-left: 0; // Reset the default margin for all li elements when no .span* classes are present
 	  }
 
-      // Make all center column elements block level again
-      [class*="center"] {
-        float: none;
-        display: block;
-        width: 100%;
-        margin-left: 0;
-        .box-sizing(border-box);
-      }
-
 	  // Make all grid-sized elements block level again
+      [class*="one"],
+      [class*="center"],
 	  [class*="span"],
 	  .uneditable-input[class*="span"], // Makes uneditable inputs full-width when using grid sizing
 	  .row-fluid [class*="span"] {
