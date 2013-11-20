@@ -40,7 +40,7 @@
   float: right;
 }
 
-.make-percentage( @percentage ) {
+.makePercentage( @percentage ) {
   float: left;
   min-height: 1px;
   .box-sizing(border-box);
@@ -49,14 +49,17 @@
 }
 
 .one-half {
-  .make-percentage(0.5);
+  .makePercentage(0.5);
 }
 
 .one-third {
-  .make-percentage(0.3333);
+  .makePercentage(0.33333);
 }
 
 .one-quarter {
-  .make-percentage(0.25);
+  .makePercentage(0.25);
 }
 
+one-three-quarter {
+  .makePercentage(0.75);
+}

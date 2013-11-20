@@ -1,8 +1,7 @@
-// REPEAT VARIABLES & MIXINS
-// -------------------------
-// Required since we compile the responsive stuff separately
-@import "src/variables"; // Modify this for custom colors, font-sizes, etc
-@import "extend/override"; // Modify this for custom colors, font-sizes, etc
+// Required if you are going to compile the responsive css seperatly.
+@import "src/variables";
+@import "extend/override";
+@import "src/grid";
 @import "src/mixins";
 @import "src/responsive";
 

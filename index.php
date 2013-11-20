@@ -90,24 +90,24 @@
 				<div class="example-grid">
 					<div class="bs-docs-grid">
 					    <div class="row show-grid">
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
-			              <div class="span1">1</div>
+			              <div class="span1 phone-quarter">1</div>
+			              <div class="span1 phone-quarter">1</div>
+			              <div class="span1 phone-quarter">1</div>
+			              <div class="span1 phone-quarter">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
+			              <div class="span1 hidden-phone">1</div>
 			            </div>
 			
                         <div class="row">
                             <div class="center5 show-grid">
-                                <div class="span2">2</div>
-                                <div class="span3">3</div>
+                                <div class="span2 phone-quarter">2</div>
+                                <div class="span3 phone-three-quarter">3</div>
                             </div>
                         </div>
 
@@ -118,8 +118,8 @@
                         </div>
 
 			            <div class="row show-grid">
-			              <div class="span6">6</div>
-			              <div class="span6">6</div>
+			              <div class="span6 phone-half">6</div>
+			              <div class="span6 phone-half">6</div>
 			            </div>
 
 			            <div class="row show-grid">
