@@ -1,0 +1,39 @@
+body {
+    padding-top: 40px;
+}
+#sidebar {
+    position: absolute; top: 20px; left: 20px; font-size: 32px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+.show-grid {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.show-grid [class*="col"] {
+    background-color: #eee;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.show-grid [class*="col"]:hover {
+    background-color: #ddd;
+}
+.show-grid .show-grid {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.show-grid .show-grid [class*="col"] {
+    margin-top: 5px;
+}
+.show-grid [class*="col"] [class*="col"] {
+    background-color: #ccc;
+}
+.show-grid [class*="col"] [class*="col"] [class*="col"] {
+    background-color: #999;
+}
