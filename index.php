@@ -23,55 +23,18 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
 
-    <style type="text/css">
-        .show-grid {
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-        .show-grid [class*="span"],
-        .show-grid [class*="one"] {
-            background-color: #eee;
-            text-align: center;
-            -webkit-border-radius: 3px;
-            -moz-border-radius: 3px;
-            border-radius: 3px;
-            min-height: 40px;
-            line-height: 40px;
-        }
-        .show-grid [class*="span"]:hover,
-        .show-grid [class*="one"]:hover {
-            background-color: #ddd;
-        }
-        .show-grid .show-grid {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .show-grid .show-grid [class*="span"],
-        .show-grid .show-grid [class*="one"]{
-            margin-top: 5px;
-        }
-        .show-grid [class*="span"] [class*="span"],
-        .show-grid [class*="one"] [class*="one"] {
-            background-color: #ccc;
-        }
-        .show-grid [class*="span"] [class*="span"] [class*="span"],
-        .show-grid [class*="span"] [class*="span"] [class*="one"] {
-            background-color: #999;
-        }
-    </style>
+    <link rel="stylesheet" href="doc/document.css"/>
 
 </head>
 <body>
 
-	<div class="sidebar" style='top: 120px; position: absolute; left: 20px;'>
-		<strong>Notes:</strong>
-		<ul>
-			<li>Form style ( 100% )</li>
-			<li>Mobile span override</li>
-			<li>Button classes</li>
-		</ul>
-	</div>
+<div id="sidebar">
+    <i class="fa fa-mobile visible-phone"></i>
+    <i class="fa fa-tablet visible-tablet"></i>
+    <i class="fa fa-laptop visible-desktop"></i>
+</div>
 
+<div class="wrapper">
 	<div class="container">
 
 		<section id="grid">
@@ -89,92 +52,73 @@
 				
 				<div class="example-grid">
 					<div class="bs-docs-grid">
-					    <div class="row show-grid">
-			              <div class="span1 phone-quarter">1</div>
-			              <div class="span1 phone-quarter">1</div>
-			              <div class="span1 phone-quarter">1</div>
-			              <div class="span1 phone-quarter">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			              <div class="span1 hidden-phone">1</div>
-			            </div>
-			
-                        <div class="row">
-                            <div class="center5 show-grid">
-                                <div class="span2 phone-quarter">2</div>
-                                <div class="span3 phone-three-quarter">3</div>
-                            </div>
+
+                        <div class="row show-grid">
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-1">.md-1</div>
+                        </div>
+                        <div class="row show-grid">
+                            <div class="md-8">.md-8</div>
+                            <div class="md-4">.md-4</div>
+                        </div>
+                        <div class="row show-grid">
+                            <div class="md-4">.md-4</div>
+                            <div class="md-4">.md-4</div>
+                            <div class="md-4">.md-4</div>
+                        </div>
+                        <div class="row show-grid">
+                            <div class="md-6">.md-6</div>
+                            <div class="md-6">.md-6</div>
                         </div>
 
-                        <div class="row">
-                            <div class="center3 show-grid">
-                                <div class="span3">3</div>
-                            </div>
+                        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                        <div class="row show-grid">
+                            <div class="xs-12 md-8">.xs-12 .md-8</div>
+                            <div class="xs-6 md-4">.xs-6 .md-4</div>
                         </div>
 
-			            <div class="row show-grid">
-			              <div class="span6 phone-half">6</div>
-			              <div class="span6 phone-half">6</div>
-			            </div>
-
-			            <div class="row show-grid">
-			              <div class="span2">2</div>
-			              <div class="span3">3</div>
-			              <div class="span4">4</div>
-			              <div class="span3">3</div>
-			            </div>
-			
-			            <div class="row show-grid">
-			              <div class="span4">4</div>
-			              <div class="span3">3</div>
-			              <div class="span5">5</div>
-			            </div>
-			
-			            <div class="row show-grid">
-			              <div class="span12">12</div>
-			            </div>
-
-                        <div class="row-fluid show-grid">
-                            <div class="one-half">1/2</div>
-                            <div class="one-half">1/2</div>
+                        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                        <div class="row show-grid">
+                            <div class="xs-6 md-4">.xs-6 .md-4</div>
+                            <div class="xs-6 md-4">.xs-6 .md-4</div>
+                            <div class="xs-6 md-4">.xs-6 .md-4</div>
                         </div>
 
-                        <div class="row-fluid show-grid">
-                            <div class="one-third">1/3</div>
-                            <div class="one-third">1/3</div>
-                            <div class="one-third">1/3</div>
+                        <!-- Columns are always 50% wide, on mobile and desktop -->
+                        <div class="row show-grid">
+                            <div class="xs-6">.xs-6</div>
+                            <div class="xs-6">.xs-6</div>
                         </div>
 
-                        <div class="row-fluid show-grid">
-                            <div class="one-quarter">1/4</div>
-                            <div class="one-quarter">1/4</div>
-                            <div class="one-half">1/2</div>
+                        <!-- Offsetting columns -->
+                        <div class="row show-grid">
+                            <div class="md-4">.md-4</div>
+                            <div class="md-4 md-offset-4">.md-4 .md-offset-4</div>
+                        </div>
+                        <div class="row show-grid">
+                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
+                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
+                        </div>
+                        <div class="row show-grid">
+                            <div class="md-6 md-offset-3">.md-6 .md-offset-3</div>
                         </div>
 
-			          </div>
+			        </div>
 
 				</div>
 
 			</div>
 		</section>
-
-		<div class="page-header">
-            <h1>Media</h1>
-        </div>
-		
-		<div class="row">
-			<div class="span6">	
-				<img src="http://placehold.it/130" class="img-rounded">
-				<img src="http://placehold.it/130" class="img-circle">
-				<img src="http://placehold.it/130" class="img-polaroid">
-
-  			</div>
-  		</div>
 
 		<div class="page-header">
             <h1>Typography</h1>
@@ -184,7 +128,6 @@
 			<div class="span6">
 				<section id="typography">
 		        
-
 		        <h2 id="headings">Headings</h2>
 		        <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available.</p>
 		        <div class="bs-docs-example">
@@ -431,11 +374,9 @@
 		        </section>
 			</div>
 		</div>
-
-    </div>
-
+        <? /* */ ?>
     </div><!-- container -->
-
+</div><!-- wrapper -->
 	<!-- JS
 	================================================== -->
 	<script src="assets/js/jquery.js"></script>

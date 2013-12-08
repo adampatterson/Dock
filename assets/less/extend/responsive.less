@@ -1,27 +1,25 @@
-// Large screens
-// Blue
-@import "_large";
+@import "../src/responsive-utilities";
 
-// Smaller than standard 960 (devices and browsers)
-// Purple
-@import "_desktop";
+@-ms-viewport {
+  width: device-width;
+}
 
-// Smaller than standard 960 (devices and browsers)
-// Green
-@import "_desktop-small";
+@media (max-width: @screen-xs-max) {
 
-// Tablet Portrait size to standard 960 (devices and browsers)
-// Green
-@import "_tablet-portrait";
+}
 
-// All Mobile Sizes (devices and browser)
-// Red
-@import "_handheld-landscape";
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
 
-// Mobile Landscape Size to Tablet Portrait (devices and browsers)
-// Red
-@import "_handheld-landscape-tablet-portrait";
+}
 
-// Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
-// Orange
-@import "_handheld";
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
+}
+
+@media (min-width: @screen-lg-min) {
+
+}
+
+@media print {
+
+}
