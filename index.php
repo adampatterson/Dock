@@ -117,8 +117,8 @@
                             <div class="md-6 md-center xs-center">
                                 .md-6 .md-center
                                 <div class="row">
-                                    <div class="md-3 xs-4 xs-offset-1">.md-3 .sm-6 .sm-offset-3</div>
-                                    <div class="md-3 xs-4 xs-offset-2">.md-3 .sm-6 .sm-offset-3</div>
+                                    <div class="md-4">.md-4</div>
+                                    <div class="md-4 xs-offset-4">.md-4 .xs-offset-4</div>
                                 </div>
 
                             </div>

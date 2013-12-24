@@ -2549,6 +2549,7 @@ address {
   font-style: normal;
   line-height: 1.428571429;
 }
+/* You may want to compile the responsive less separately */
 @-ms-viewport {
   width: device-width;
 }
@@ -2632,7 +2633,6 @@ address {
     border-top: 3px solid purple;
   }
 }
-/* You may want to compile the responsive less separately */
 @-ms-viewport {
   width: device-width;
 }
