@@ -1795,6 +1795,10 @@ hr {
 .xs-offset-0 {
   margin-left: 0%;
 }
+.xs-center {
+  margin: 0 auto;
+  float: none;
+}
 @media (min-width: 768px) {
   .sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6, .sm-7, .sm-8, .sm-9, .sm-10, .sm-11, .sm-12 {
     float: left;
@@ -1951,6 +1955,10 @@ hr {
   }
   .sm-offset-0 {
     margin-left: 0%;
+  }
+  .sm-center {
+    margin: 0 auto;
+    float: none;
   }
 }
 @media (min-width: 992px) {
@@ -2110,6 +2118,10 @@ hr {
   .md-offset-0 {
     margin-left: 0%;
   }
+  .md-center {
+    margin: 0 auto;
+    float: none;
+  }
 }
 @media (min-width: 1200px) {
   .lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12 {
@@ -2267,6 +2279,10 @@ hr {
   }
   .lg-offset-0 {
     margin-left: 0%;
+  }
+  .lg-center {
+    margin: 0 auto;
+    float: none;
   }
 }
 h1,

@@ -12,7 +12,10 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.show-grid [class*="col"] {
+.show-grid [class*="lg"],
+.show-grid [class*="md"],
+.show-grid [class*="sm"],
+.show-grid [class*="xs"] {
     background-color: #eee;
     text-align: center;
     -webkit-border-radius: 3px;
@@ -21,19 +24,19 @@ body {
     min-height: 40px;
     line-height: 40px;
 }
-.show-grid [class*="col"]:hover {
+.show-grid [class*="md"]:hover {
     background-color: #ddd;
 }
 .show-grid .show-grid {
     margin-top: 0;
     margin-bottom: 0;
 }
-.show-grid .show-grid [class*="col"] {
+.show-grid .show-grid [class*="md"] {
     margin-top: 5px;
 }
-.show-grid [class*="col"] [class*="col"] {
+.show-grid [class*="md"] [class*="md"] {
     background-color: #ccc;
 }
-.show-grid [class*="col"] [class*="col"] [class*="col"] {
+.show-grid [class*="md"] [class*="md"] [class*="md"] {
     background-color: #999;
 }

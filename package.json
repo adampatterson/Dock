@@ -7,6 +7,9 @@
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-less": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-recess": "latest"
+    "grunt-recess": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-ftp-deploy": "latest",
+    "grunt-notify": "latest"
   }
 }

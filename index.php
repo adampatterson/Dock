@@ -54,18 +54,18 @@
 					<div class="bs-docs-grid">
 
                         <div class="row show-grid">
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
-                            <div class="md-1 xs-1">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="md-1 xs-2">.md-1</div>
                         </div>
                         <div class="row show-grid">
                             <div class="md-8">.md-8</div>
@@ -103,14 +103,25 @@
                         <!-- Offsetting columns -->
                         <div class="row show-grid">
                             <div class="md-4">.md-4</div>
-                            <div class="md-4 md-offset-4">.md-4 .md-offset-4</div>
+                            <div class="md-4 md-offset-4">.md-4 .md-offset-4 .sm-offset-4</div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
-                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
+                            <div class="md-3 md-offset-3 sm-3 sm-offset-3">.md-3 .sm-3 .md-offset-3 .sm-offset-3</div>
+                            <div class="md-3 md-offset-3 sm-3 sm-offset-3">.md-3 .sm-3 .md-offset-3 .sm-offset-3</div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-6 md-offset-3">.md-6 .md-offset-3</div>
+                            <div class="md-6 md-center">.md-6 .md-center</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="md-6 md-center xs-center">
+                                .md-6 .md-center
+                                <div class="row">
+                                    <div class="md-3 xs-4 xs-offset-1">.md-3 .sm-6 .sm-offset-3</div>
+                                    <div class="md-3 xs-4 xs-offset-2">.md-3 .sm-6 .sm-offset-3</div>
+                                </div>
+
+                            </div>
                         </div>
 
 			        </div>
@@ -385,18 +396,18 @@
     <script src="assets/js/application.js"></script>
 
 	<script>
-		$(document).ready(function(){
-
-			var originalText;
-			$('.show-grid').children().hover(
-				function() {
-					originalText = $(this).text();
-					$(this).html($(this).width()+'px');
-				},
-				function() {
-					$(this).html(originalText);
-				})
-		});
+//		$(document).ready(function(){
+//
+//			var originalText;
+//			$('.show-grid').children().hover(
+//				function() {
+//					originalText = $(this).text();
+//					$(this).html($(this).width()+'px');
+//				},
+//				function() {
+//					$(this).html(originalText);
+//				})
+//		});
 	</script>
 
 	</body>
