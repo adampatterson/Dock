@@ -37,35 +37,70 @@
 <div class="wrapper">
 	<div class="container">
 
-		<section id="grid">
-			<header>
-				<h1>A non restrictive framework</h1>
-				<p class="lead">Dock is a simple Bootstrap based framework made to be as non restrictive as possible, focusing more on layout than style.</p>
-				<p class="lead">You won't find any of the Icing that bootstrap has but rather an improved grid system, a more functional file structure with over ride variables and much more.</p>
-				<p class="lead">Made to be expressible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
-			</header>
+		<div class="row">
+			<div class="md-12">
+				<section id="grid">
+					
+					<header>
+						<h1>A non restrictive framework</h1>
+						<p class="lead">Dock is a simple Bootstrap based framework made to be as non restrictive as possible. Taking a focusing layout rather than style, afterall that is your job!</p>
+						<p class="lead">You won't find any of the Icing that bootstrap has but rather a more consice grid system with centering, a more functional file structure allowing you to extrand rather than over ride styles.</p>
+						<p class="lead">Made to be extensible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
+					</header>
 
-			<hr class="large" />
+					<hr class="large" />
 
-			<div class="doc-section clearfix" id="grid">
-				<h2>The Grid</h2>
-				
-				<div class="example-grid">
-					<div class="bs-docs-grid">
+					<div class="doc-section clearfix" id="grid">
+
+						<h2>Manual Grids</h2>
+						<div class="row show-grid">
+                            <div class="one">.one</div>
+                        </div>
 
                         <div class="row show-grid">
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
-                            <div class="md-1 xs-2">.md-1</div>
+                            <div class="one-half">.one-half</div>
+                            <div class="one-half">.one-half</div>
+                        </div>
+
+						<div class="row show-grid">
+                            <div class="one-third">.one-third</div>
+                            <div class="one-third">.one-third</div>
+                            <div class="one-third">.one-third</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-third">.one-third</div>
+                            <div class="two-third">.two-third</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-quarter">.one-quarter</div>
+                            <div class="one-quarter">.one-quarter</div>
+                            <div class="one-quarter">.one-quarter</div>
+                            <div class="one-quarter">.one-quarter</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="three-quarter">.three-quarter</div>
+                            <div class="one-quarter">.one-quarter</div>
+                        </div>
+
+
+						<h2>The Grid</h2>
+		
+                        <div class="row show-grid">
+							<div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
+                            <div class="md-1">.md-1</div>
                         </div>
                         <div class="row show-grid">
                             <div class="md-8">.md-8</div>
@@ -83,15 +118,15 @@
 
                         <!-- Stack the columns on mobile by making one full-width and the other half-width -->
                         <div class="row show-grid">
-                            <div class="xs-12 md-8">.xs-12 .md-8</div>
-                            <div class="xs-6 md-4">.xs-6 .md-4</div>
+                            <div class="md-8">.xs-12</div>
+                            <div class="md-4">.xs-6</div>
                         </div>
 
                         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
                         <div class="row show-grid">
-                            <div class="xs-6 md-4">.xs-6 .md-4</div>
-                            <div class="xs-6 md-4">.xs-6 .md-4</div>
-                            <div class="xs-6 md-4">.xs-6 .md-4</div>
+                            <div class="md-4">.xs-6</div>
+                            <div class="md-4">.xs-6</div>
+                            <div class="md-4">.xs-6</div>
                         </div>
 
                         <!-- Columns are always 50% wide, on mobile and desktop -->
@@ -103,11 +138,11 @@
                         <!-- Offsetting columns -->
                         <div class="row show-grid">
                             <div class="md-4">.md-4</div>
-                            <div class="md-4 md-offset-4">.md-4 .md-offset-4 .sm-offset-4</div>
+                            <div class="md-4 md-offset-4">.md-4 .md-offset-4</div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-3 md-offset-3 sm-3 sm-offset-3">.md-3 .sm-3 .md-offset-3 .sm-offset-3</div>
-                            <div class="md-3 md-offset-3 sm-3 sm-offset-3">.md-3 .sm-3 .md-offset-3 .sm-offset-3</div>
+                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
+                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
                         </div>
                         <div class="row show-grid">
                             <div class="md-6 md-center">.md-6 .md-center</div>
@@ -118,25 +153,25 @@
                                 .md-6 .md-center
                                 <div class="row">
                                     <div class="md-4">.md-4</div>
-                                    <div class="md-4 xs-offset-4">.md-4 .xs-offset-4</div>
+                                    <div class="md-4">.md-4</div>
+                                    <div class="md-4">.md-4</div>
                                 </div>
 
                             </div>
                         </div>
-
-			        </div>
-
-				</div>
-
-			</div>
-		</section>
-
-		<div class="page-header">
-            <h1>Typography</h1>
-        </div>
-
+						
+					</div>
+				</section>
+	        </div>
+		</div>
+		
 		<div class="row">
-			<div class="span6">
+
+			<div class="md-12 page-header">
+	            <h1>Typography</h1>
+	        </div>
+
+			<div class="md-6">
 				<section id="typography">
 		        
 		        <h2 id="headings">Headings</h2>
@@ -239,7 +274,8 @@
 		        </div>
 				
 			</div>
-			<div class="span6">
+
+			<div class="md-6">
 				
 		        <h2 id="blockquotes">Blockquotes</h2>
 		        <p>For quoting blocks of content from another source within your document.</p>

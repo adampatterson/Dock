@@ -2549,7 +2549,6 @@ address {
   font-style: normal;
   line-height: 1.428571429;
 }
-/* You may want to compile the responsive less separately */
 @-ms-viewport {
   width: device-width;
 }
@@ -2608,6 +2607,7 @@ address {
     display: none !important;
   }
 }
+/* You may want to compile the responsive less separately */
 @media (min-width: 1200px) {
   body {
     border-top: 3px solid blue;
@@ -2635,4 +2635,123 @@ address {
 }
 @-ms-viewport {
   width: device-width;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+}
+.one {
+  float: left;
+  min-height: 1px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+.one:before,
+.one:after {
+  content: " ";
+  display: table;
+}
+.one:after {
+  clear: both;
+}
+.one-half {
+  float: left;
+  min-height: 1px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+}
+.one-half:before,
+.one-half:after {
+  content: " ";
+  display: table;
+}
+.one-half:after {
+  clear: both;
+}
+.one-third {
+  float: left;
+  min-height: 1px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.333%;
+  /* Responsive
+	@media (max-width: @screen-xs-max) {
+		.makePercentage(@one);
+	}
+
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	.makePercentage(@one);
+	}
+
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		.makePercentage(@half);
+	}
+*/
+}
+.one-third:before,
+.one-third:after {
+  content: " ";
+  display: table;
+}
+.one-third:after {
+  clear: both;
+}
+.two-third {
+  float: left;
+  min-height: 1px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.666%;
+  float: right;
+}
+.two-third:before,
+.two-third:after {
+  content: " ";
+  display: table;
+}
+.two-third:after {
+  clear: both;
+}
+.one-quarter {
+  float: left;
+  min-height: 1px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+}
+.one-quarter:before,
+.one-quarter:after {
+  content: " ";
+  display: table;
+}
+.one-quarter:after {
+  clear: both;
+}
+.three-quarter {
+  float: left;
+  min-height: 1px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 75%;
+}
+.three-quarter:before,
+.three-quarter:after {
+  content: " ";
+  display: table;
+}
+.three-quarter:after {
+  clear: both;
 }

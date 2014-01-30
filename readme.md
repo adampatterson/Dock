@@ -15,7 +15,7 @@ Updating the variables file is a great idea, until you update to the latest vers
 The basic less structure looks like this.
 
 * /extend
-* /extend/override.less
+* /extend/extend
 * /extend/style.less
 * /extend/{ project files }
 * /src
@@ -52,7 +52,7 @@ a:link {
 // Net result is a green link.
 ```
 
-By using `extend.less` you would see generated css like this.
+By using `extend.less` and overwirting the default link color you would see generated css like this.
 
 
 ```
