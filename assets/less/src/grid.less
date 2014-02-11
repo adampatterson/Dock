@@ -32,7 +32,6 @@
 //
 // Columns, offsets, pushes, and pulls for extra small devices like
 // smartphones.
-
 .make-grid-columns-float(xs);
 .make-grid(@grid-columns, xs, width);
 .make-grid(@grid-columns, xs, pull);
@@ -50,7 +49,6 @@
 //
 // Columns, offsets, pushes, and pulls for the small device range, from phones
 // to tablets.
-
 @media (min-width: @screen-sm-min) {
   .make-grid-columns-float(sm);
   .make-grid(@grid-columns, sm, width);
@@ -69,7 +67,6 @@
 // Medium grid
 //
 // Columns, offsets, pushes, and pulls for the desktop device range.
-
 @media (min-width: @screen-md-min) {
   .make-grid-columns-float(md);
   .make-grid(@grid-columns, md, width);
@@ -87,7 +84,6 @@
 // Large grid
 //
 // Columns, offsets, pushes, and pulls for the large desktop device range.
-
 @media (min-width: @screen-lg-min) {
   .make-grid-columns-float(lg);
   .make-grid(@grid-columns, lg, width);
@@ -100,3 +96,38 @@
     float: none;
   }
 }
+
+.one,
+.full {
+  .makePercentage(@one); }
+
+.one-half,
+.half {
+  .makePercentage(@half); }
+
+.one-third {
+  .makePercentage(@third); }
+
+.two-thirds {
+  .makePercentage(@third*2); }
+
+.one-quarter {
+  .makePercentage(@quarter); }
+
+.three-quarters {
+  .makePercentage(@threeQuarter); }
+
+.one-fifth {
+  .makePercentage(@oneFifth); }
+
+.two-fifths {
+  .makePercentage(@twoFifths); }
+
+.three-fifths {
+  .makePercentage(@threeFifths); }
+
+.four-fifths {
+  .makePercentage(@fourFifths); }
+
+.one-sixth {
+  .makePercentage(@oneSixth); }

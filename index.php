@@ -70,7 +70,7 @@
 
                         <div class="row show-grid">
                             <div class="one-third">.one-third</div>
-                            <div class="two-third">.two-third</div>
+                            <div class="two-thirds">.two-thirds</div>
                         </div>
 
                         <div class="row show-grid">
@@ -81,7 +81,26 @@
                         </div>
 
                         <div class="row show-grid">
-                            <div class="three-quarter">.three-quarter</div>
+                            <div class="one-fifth">.one-fifth</div>
+                            <div class="one-fifth">.one-fifth</div>
+                            <div class="one-fifth">.one-fifth</div>
+                            <div class="one-fifth">.one-fifth</div>
+                            <div class="one-fifth">.one-fifth</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-sixth">.one-sixth</div>
+                            <div class="one-sixth">.one-sixth</div>
+                            <div class="one-sixth">.one-sixth</div>
+                            <div class="one-sixth">.one-sixth</div>
+                            <div class="one-sixth">.one-sixth</div>
+                            <div class="one-sixth">.one-sixth</div>
+                        </div>
+
+
+
+                        <div class="row show-grid">
+                            <div class="three-quarters">.three-quarters</div>
                             <div class="one-quarter">.one-quarter</div>
                         </div>
 
