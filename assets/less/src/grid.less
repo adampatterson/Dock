@@ -20,7 +20,8 @@
 }
 
 // mobile first defaults
-.row {
+.row,
+.column {
   .make-row();
 }
 
@@ -96,38 +97,3 @@
     float: none;
   }
 }
-
-.one,
-.full {
-  .makePercentage(@one); }
-
-.one-half,
-.half {
-  .makePercentage(@half); }
-
-.one-third {
-  .makePercentage(@third); }
-
-.two-thirds {
-  .makePercentage(@third*2); }
-
-.one-quarter {
-  .makePercentage(@quarter); }
-
-.three-quarters {
-  .makePercentage(@threeQuarter); }
-
-.one-fifth {
-  .makePercentage(@oneFifth); }
-
-.two-fifths {
-  .makePercentage(@twoFifths); }
-
-.three-fifths {
-  .makePercentage(@threeFifths); }
-
-.four-fifths {
-  .makePercentage(@fourFifths); }
-
-.one-sixth {
-  .makePercentage(@oneSixth); }

@@ -5,38 +5,36 @@
 
 **Bootstrap is for Apps and not Websites.**
 
-A common flaw with Frameworks is that they include the core source and people don't want to make modifications to it since they would complicate the upgrade process.
+A common flaw with Frameworks is that they include the core source and people will ether make edits to it, or wont want to make modifications since they would complicate the upgrade process.
 
 Updating the variables file is a great idea, until you update to the latest version and have to manually diff the two.
 
 
 ### Structure
 
-The basic less structure looks like this.
+The basic Dock folder structure looks like this.
 
 * /extend
-* /extend/extend
 * /extend/style.less
 * /extend/{ project files }
 * /src
-* **responsive.less**	
 * **style.less**
 
-You should always generate css from the files in the root folder.
+You should always generate css from the files in the root folder.  In this eample we would compile **style.less**.
 
-The `/src` folder contains Docks source files and should not need to be edited. 
+The `/src` folder contains the Dock source files and should not need to be modified. 
 
-The `/extend` folder contains all of the custom code for your project, as well as the `extend.less` file. Think of this as Object Oriented Less.
+The `/extend` folder will contain all of the custom code for your project, as well as the `/extend/extend.less` file. Think of this as Object Oriented Less.
 
-`variable.less` contains the default values, as long as you copy the exact same variable name to the `extend.less` file you can effect the core source.
+`/src/variable.less` contains the default values used in the framework, as long as you copy the exact same variable name to the `extend/extend.less` file you can effect the compiled code without creating inheritance.
 
 
 
-### Why you should extend
+### Why extending is better?
 
-This prevents code duplication for cascading effects.
+It prevents code duplication or inheritance overhead.
 
-Unless you edit the source directly you would see something like this in the generated css.
+If Dock defaults a link to Blue, without using the Extending values, you might do something like this.
 
 ```
 // dock.less
@@ -52,7 +50,7 @@ a:link {
 // Net result is a green link.
 ```
 
-By using `extend.less` and overwirting the default link color you would see generated css like this.
+But if we use the `/extend/extend.less` and overwirte the default link color you would see generated css like this.
 
 
 ```
@@ -66,46 +64,39 @@ a:link {
 
 ### Setup
 
-Some people will generate a single file containing the style and media queries. You are also free to generate these separately as well.
-
+The idea here is that you are in control, so at a mimimum you need to import a few files.
 
 The root `style.less` file would look something like this:
 
 ```
 // Core Framework
-@import "src/dock";
+@import "src/dock.less";
 
 // Extended
-@import "extend/ie";
-@import "extend/style";
+@import "extend/mixins.less";
+@import "extend/responsive.less";
+@import "extend/ie.less";
+@import "extend/style.less";
 ```
 
-If you like keeping your responsive code in a file of its own then make `responsive.less`
-
-```
-@import "src/variables";
-@import "extend/extend";
-@import "src/grid";
-@import "src/mixins";
-@import "src/responsive";
-
-@import "extend/responsive";
-```
 
 Thats it!
 
 
-The files in your `/extend` directory will be where you store the project files.
+## Extras
+Along with being a flexible micro framework, It also makes for a perfect Front end starting point when developing small sites or even CMS themes.
 
-I chose to use `/extend/style.less`
-
-
-### Install:
+### Grunt:
+http://gruntjs.com
 
 * `sudo npm install -g grunt-cli`
 * `npm install`
 * `grunt watch`
 
+### Bower:
+http://bower.io/
+
+* `bower install`
 
 ### Acknowledgments
 

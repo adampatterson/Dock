@@ -16,7 +16,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   	<link rel="stylesheet" href="assets/css/style.css">
-  	<link rel="stylesheet" href="assets/css/responsive.css">
 
 	<link rel="shortcut icon" href="assets/ico/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon.png">
@@ -48,132 +47,128 @@
 						<p class="lead">Made to be extensible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
 					</header>
 
-					<hr class="large" />
-
 					<div class="doc-section clearfix" id="grid">
 
-						<h2>Manual Grids</h2>
+						<h2 class="large">Manual Grids</h2>
 						<div class="row show-grid">
-                            <div class="one">.one</div>
+                            <div class="one"><span>.one</span></div>
                         </div>
 
                         <div class="row show-grid">
-                            <div class="one-half">.one-half</div>
-                            <div class="one-half">.one-half</div>
+                            <div class="one-half"><span>.one-half</span></div>
+                            <div class="one-half"><span>.one-half</span></div>
                         </div>
 
 						<div class="row show-grid">
-                            <div class="one-third">.one-third</div>
-                            <div class="one-third">.one-third</div>
-                            <div class="one-third">.one-third</div>
+                            <div class="one-third"><span>.one-third</span></div>
+                            <div class="one-third"><span>.one-third</span></div>
+                            <div class="one-third"><span>.one-third</span></div>
                         </div>
 
                         <div class="row show-grid">
-                            <div class="one-third">.one-third</div>
-                            <div class="two-thirds">.two-thirds</div>
+                            <div class="one-third"><span>.one-third</span></div>
+                            <div class="two-thirds"><span>.two-thirds</span></div>
                         </div>
 
                         <div class="row show-grid">
-                            <div class="one-quarter">.one-quarter</div>
-                            <div class="one-quarter">.one-quarter</div>
-                            <div class="one-quarter">.one-quarter</div>
-                            <div class="one-quarter">.one-quarter</div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
                         </div>
 
                         <div class="row show-grid">
-                            <div class="one-fifth">.one-fifth</div>
-                            <div class="one-fifth">.one-fifth</div>
-                            <div class="one-fifth">.one-fifth</div>
-                            <div class="one-fifth">.one-fifth</div>
-                            <div class="one-fifth">.one-fifth</div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
                         </div>
 
                         <div class="row show-grid">
-                            <div class="one-sixth">.one-sixth</div>
-                            <div class="one-sixth">.one-sixth</div>
-                            <div class="one-sixth">.one-sixth</div>
-                            <div class="one-sixth">.one-sixth</div>
-                            <div class="one-sixth">.one-sixth</div>
-                            <div class="one-sixth">.one-sixth</div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
                         </div>
-
-
 
                         <div class="row show-grid">
-                            <div class="three-quarters">.three-quarters</div>
-                            <div class="one-quarter">.one-quarter</div>
+                            <div class="three-quarters"><span>.three-quarters</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
                         </div>
 
 
-						<h2>The Grid</h2>
+						<h2 class="large">The Grid</h2>
 		
                         <div class="row show-grid">
-							<div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
-                            <div class="md-1">.md-1</div>
+							<div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
+                            <div class="md-1"><span>.md-1</span></div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-8">.md-8</div>
-                            <div class="md-4">.md-4</div>
+                            <div class="md-8"><span>.md-8</span></div>
+                            <div class="md-4"><span>.md-4</span></div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-4">.md-4</div>
-                            <div class="md-4">.md-4</div>
-                            <div class="md-4">.md-4</div>
+                            <div class="md-4"><span>.md-4</span></div>
+                            <div class="md-4"><span>.md-4</span></div>
+                            <div class="md-4"><span>.md-4</span></div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-6">.md-6</div>
-                            <div class="md-6">.md-6</div>
+                            <div class="md-6"><span>.md-6</span></div>
+                            <div class="md-6"><span>.md-6</span></div>
                         </div>
 
                         <!-- Stack the columns on mobile by making one full-width and the other half-width -->
                         <div class="row show-grid">
-                            <div class="md-8">.xs-12</div>
-                            <div class="md-4">.xs-6</div>
+                            <div class="md-8"><span>.xs-12</span></div>
+                            <div class="md-4"><span>.xs-6</span></div>
                         </div>
 
                         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
                         <div class="row show-grid">
-                            <div class="md-4">.xs-6</div>
-                            <div class="md-4">.xs-6</div>
-                            <div class="md-4">.xs-6</div>
+                            <div class="md-4"><span>.xs-6</span></div>
+                            <div class="md-4"><span>.xs-6</span></div>
+                            <div class="md-4"><span>.xs-6</span></div>
                         </div>
 
                         <!-- Columns are always 50% wide, on mobile and desktop -->
                         <div class="row show-grid">
-                            <div class="xs-6">.xs-6</div>
-                            <div class="xs-6">.xs-6</div>
+                            <div class="xs-6"><span>.xs-6</span></div>
+                            <div class="xs-6"><span>.xs-6</span></div>
                         </div>
 
                         <!-- Offsetting columns -->
                         <div class="row show-grid">
-                            <div class="md-4">.md-4</div>
-                            <div class="md-4 md-offset-4">.md-4 .md-offset-4</div>
+                            <div class="md-4"><span>.md-4</span></div>
+                            <div class="md-4 md-offset-4"><span>.md-4 .md-offset-4</span></div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
-                            <div class="md-3 md-offset-3">.md-3 .md-offset-3</div>
+                            <div class="md-3 md-offset-3"><span>.md-3 .md-offset-3</span></div>
+                            <div class="md-3 md-offset-3"><span>.md-3 .md-offset-3</span></div>
                         </div>
                         <div class="row show-grid">
-                            <div class="md-6 md-center">.md-6 .md-center</div>
+                            <div class="md-6 md-center"><span>.md-6 .md-center</span></div>
                         </div>
 
                         <div class="row show-grid">
                             <div class="md-6 md-center xs-center">
-                                .md-6 .md-center
+                                <span>.md-6 .md-center</span>
                                 <div class="row">
-                                    <div class="md-4">.md-4</div>
-                                    <div class="md-4">.md-4</div>
-                                    <div class="md-4">.md-4</div>
+                                    <div class="md-4"><span>.md-4</span></div>
+                                    <div class="md-4"><span>.md-4</span></div>
+                                    <div class="md-4"><span>.md-4</span></div>
                                 </div>
 
                             </div>
@@ -184,7 +179,7 @@
 	        </div>
 		</div>
 		
-		<div class="row">
+		<div class="row hidden">
 
 			<div class="md-12 page-header">
 	            <h1>Typography</h1>
@@ -448,22 +443,7 @@
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/retina.js"></script>
-    <script src="assets/js/application.js"></script>
-
-	<script>
-//		$(document).ready(function(){
-//
-//			var originalText;
-//			$('.show-grid').children().hover(
-//				function() {
-//					originalText = $(this).text();
-//					$(this).html($(this).width()+'px');
-//				},
-//				function() {
-//					$(this).html(originalText);
-//				})
-//		});
-	</script>
+    <script src="assets/js/application.min.js"></script>
 
 	</body>
 </html>

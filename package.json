@@ -1,5 +1,5 @@
 {
-  "name": "dock",
+  "name": "Dock",
   "version": "0.1.0",
   "dependencies": {
     "grunt-cli": "latest",

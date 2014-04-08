@@ -1,0 +1,10 @@
+{
+  "name": "Dock",
+  "version": "0.1.0",
+  "directory": "assets/vendor",
+  "dependencies": {
+    "jquery": "latest",
+    "retina.js": "latest",
+    "html5shiv": "latest"
+  }
+}

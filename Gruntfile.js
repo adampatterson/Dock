@@ -17,9 +17,6 @@ module.exports = function(grunt) {
       files: {
         'assets/css/style.min.css': [
           'assets/less/style.less'
-        ],
-        'assets/css/responsive.css': [
-          'assets/less/responsive.min.less'
         ]
       },
       options: {

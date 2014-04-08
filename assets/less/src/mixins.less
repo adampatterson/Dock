@@ -844,12 +844,13 @@
   }
 }
 
-.makePercentage( @percentage, @gutter: @grid-gutter-width ) {
+.make-percentage( @percentage, @gutter: @grid-gutter-width ) {
   float: left;
   min-height: 1px;
   position: relative;
   padding-left:  (@gutter / 2);
   padding-right: (@gutter / 2);
+  .box-sizing(border-box);
   .clearfix();
   width: percentage(@percentage);
 }

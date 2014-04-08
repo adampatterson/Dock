@@ -5,22 +5,12 @@
   width: device-width;
 }
 
-@media (max-width: @screen-xs-max) {
+@media (min-width: @screen-lg-min) { /* Orange */ }
 
-}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { /* Red */ }
 
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { /* Green */ }
 
-}
+@media (max-width: @screen-xs-max) { /* Purple */ }
 
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-
-}
-
-@media (min-width: @screen-lg-min) {
-
-}
-
-@media print {
-
-}
+@media print { }
