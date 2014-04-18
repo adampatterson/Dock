@@ -17,12 +17,13 @@
 
   	<link rel="stylesheet" href="assets/css/style.css">
 
+	<link rel="stylesheet" href="doc/document.css"/>
+  	<link rel="stylesheet" href="doc/pretty-code.css"/>
+
 	<link rel="shortcut icon" href="assets/ico/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
-
-    <link rel="stylesheet" href="doc/document.css"/>
 
 </head>
 <body>
@@ -46,6 +47,18 @@
 						<p class="lead">You won't find any of the Icing that bootstrap has but rather a more consice grid system with centering, a more functional file structure allowing you to extrand rather than over ride styles.</p>
 						<p class="lead">Made to be extensible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
 					</header>
+
+					<div class="code hidden">
+<pre><code class="language-php">function method_one (){
+	echo 'one ';
+}
+function method_two (){
+	echo 'two ';
+}
+event::on('event_trigger', 'method_one', 2);
+event::on('event_trigger', 'method_two', 1);
+event::trigger('event_trigger');</code></pre>
+</div>
 
 					<div class="doc-section clearfix" id="grid">
 
@@ -179,6 +192,17 @@
 	        </div>
 		</div>
 		
+
+		<div class="row">
+
+			<div class="md-12 page-header">
+	            <h1>Extensibility?</h1>
+	        </div>
+			<div class="md-12">
+	        	<p>Hey, You don't have any buttons, form layouts, or glitter?</p>
+			</div>
+        </div>
+
 		<div class="row hidden">
 
 			<div class="md-12 page-header">
@@ -443,7 +467,8 @@
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/retina.js"></script>
+   	<script type="text/javascript" src="doc/prism.js"></script>   
     <script src="assets/js/application.min.js"></script>
-
+ 
 	</body>
 </html>

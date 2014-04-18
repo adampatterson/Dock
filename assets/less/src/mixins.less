@@ -113,6 +113,12 @@
   border-bottom-left-radius: @radius;
      border-top-left-radius: @radius;
 }
+.border-radius(@radius) {
+  .border-top-radius(@radius);
+  .border-right-radius(@radius);
+  .border-bottom-radius(@radius);
+  .border-left-radius(@radius);
+}
 
 // Drop shadows
 .box-shadow(@shadow) {

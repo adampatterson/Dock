@@ -1274,31 +1274,6 @@ address {
   }
 }
 /* You may want to compile the responsive less separately */
-@media (min-width: 1200px) {
-  body {
-    border-top: 3px solid blue;
-  }
-}
-@media (min-width: 1200px) {
-  body {
-    border-top: 3px solid orange;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  body {
-    border-top: 3px solid red;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  body {
-    border-top: 3px solid green;
-  }
-}
-@media (max-width: 767px) {
-  body {
-    border-top: 3px solid purple;
-  }
-}
 @-ms-viewport {
   width: device-width;
 }

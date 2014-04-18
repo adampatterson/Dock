@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     dist: {
       files: {
         'assets/css/style.min.css': [
-          'assets/less/style.less'
+          'assets/less/extend/style.less'
         ]
       },
       options: {
@@ -123,7 +123,7 @@ module.exports = function(grunt) {
         tasks: ['concat:js', 'uglify:js']
       },
       css: {
-        files: ['assets/less/*.less'],
+        files: ['assets/less/*'],
         tasks: ['less']
       },
       // Automatically FTP source? Otherwise run "grunt deploy"
