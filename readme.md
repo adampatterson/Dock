@@ -100,4 +100,4 @@ http://bower.io/
 
 ### Acknowledgments
 
-This included a watered down version of Bootstrap 3.1 http://getbootstrap.com, Some Mixins from http://getpreboot.com and 
+This included a watered down version of Bootstrap 3.1 http://getbootstrap.com, Some Mixins from http://getpreboot.com 

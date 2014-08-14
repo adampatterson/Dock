@@ -42,28 +42,120 @@
 				<section id="grid">
 					
 					<header>
-						<h1>A non restrictive framework</h1>
+						<h1>Dock</h1>
+						<h2>A non restrictive framework</h2>
 						<p class="lead">Dock is a simple Bootstrap based framework made to be as non restrictive as possible. Taking a focusing layout rather than style, afterall that is your job!</p>
 						<p class="lead">You won't find any of the Icing that bootstrap has but rather a more consice grid system with centering, a more functional file structure allowing you to extrand rather than over ride styles.</p>
 						<p class="lead">Made to be extensible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
 					</header>
 
-<div class="text-center">
-					<a href="https://github.com/adampatterson/Dock/archive/master.zip" class="btn">Download</a>
-					<a href="https://github.com/adampatterson/Dock/" class="btn">View on Github</a>
-</div>
+					<div class="text-center">
+						<a href="https://github.com/adampatterson/Dock/archive/master.zip" class="btn">Download</a>
+						<a href="https://github.com/adampatterson/Dock/" class="btn">View on Github</a>
+					</div>
 
-					<div class="code hidden">
-<pre><code class="language-php">function method_one (){
-	echo 'one ';
+					<div class="doc-section clearfix" id="grid">
+						<p><strong>Simple extendable Less framework with Bootstrap roots</strong></p>
+
+						<h3>Why</h3>
+
+						<p><strong>Bootstrap is for Apps and not Websites.</strong></p>
+
+						<p>A common flaw with Frameworks is that they include the core source and people will ether make edits to it, or wont want to make modifications since they would complicate the upgrade process.</p>
+
+						<p>Updating the variables file is a great idea, until you update to the latest version and have to manually diff the two.</p>
+
+						<h3>Structure</h3>
+
+						<p>The basic Dock folder structure looks like this.</p>
+
+						<ul class="task-list">
+						<li>/extend</li>
+						<li>/extend/style.less</li>
+						<li>/extend/{ project files }</li>
+						<li>/src</li>
+						<li><strong>style.less</strong></li>
+						</ul><p>You should always generate css from the files in the root folder.  In this eample we would compile <strong>style.less</strong>.</p>
+
+						<p>The <code>/src</code> folder contains the Dock source files and should not need to be modified. </p>
+
+						<p>The <code>/extend</code> folder will contain all of the custom code for your project, as well as the <code>/extend/extend.less</code> file. Think of this as Object Oriented Less.</p>
+
+						<p><code>/src/variable.less</code> contains the default values used in the framework, as long as you copy the exact same variable name to the <code>extend/extend.less</code> file you can effect the compiled code without creating inheritance.</p>
+
+						<h3>Why extending is better?</h3>
+
+						<p>It prevents code duplication or inheritance overhead.</p>
+
+						<p>If Dock defaults a link to Blue, without using the Extending values, you might do something like this.</p>
+
+<pre><code class="language-css">// dock.less
+a:link {
+	color: blue;
 }
-function method_two (){
-	echo 'two ';
+
+// style.less
+a:link {
+	color: green;
 }
-event::on('event_trigger', 'method_one', 2);
-event::on('event_trigger', 'method_two', 1);
-event::trigger('event_trigger');</code></pre>
-</div>
+
+// Net result is a green link.
+</code></pre>
+
+						<p>But if we use the <code>/extend/extend.less</code> and overwirte the default link color you would see generated css like this.</p>
+
+<pre><code class="language-css">// dock.less
+a:link {
+color: green;
+}
+
+// Net result is a green link.
+</code></pre>
+
+						<h3>Setup</h3>
+
+						<p>The idea here is that you are in control, so at a mimimum you need to import a few files.</p>
+
+						<p>The root <code>style.less</code> file would look something like this:</p>
+
+<pre><code class="language-css">// Core Framework
+@import "src/dock.less";
+
+// Extended
+@import "extend/mixins.less";
+@import "extend/responsive.less";
+@import "extend/ie.less";
+@import "extend/style.less";
+</code></pre>
+
+						<p>Thats it!</p>
+
+						<h2>
+						<a name="user-content-extras" class="anchor" href="#extras" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extras</h2>
+
+						<p>Along with being a flexible micro framework, It also makes for a perfect Front end starting point when developing small sites or even CMS themes.</p>
+
+						<h3>
+						<a name="user-content-grunt" class="anchor" href="#grunt" aria-hidden="true"><span class="octicon octicon-link"></span></a>Grunt:</h3>
+
+						<p><a href="http://gruntjs.com">http://gruntjs.com</a></p>
+
+						<ul class="task-list">
+						<li><code>sudo npm install -g grunt-cli</code></li>
+						<li><code>npm install</code></li>
+						<li><code>grunt watch</code></li>
+						</ul><h3>
+						<a name="user-content-bower" class="anchor" href="#bower" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bower:</h3>
+
+						<p><a href="http://bower.io/">http://bower.io/</a></p>
+
+						<ul class="task-list">
+						<li><code>bower install</code></li>
+						</ul><h3>
+						<a name="user-content-acknowledgments" class="anchor" href="#acknowledgments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Acknowledgments</h3>
+
+						<p>This included a watered down version of Bootstrap 3.1 <a href="http://getbootstrap.com">http://getbootstrap.com</a>, Some Mixins from <a href="http://getpreboot.com">http://getpreboot.com</a></p>
+					</div>
 
 					<div class="doc-section clearfix" id="grid">
 
