@@ -54,8 +54,8 @@
 					<header>
 						<h1>Dock</h1>
 						<h2>A non restrictive framework</h2>
-						<p class="lead">Dock is a simple Bootstrap based framework made to be as non restrictive as possible. Taking a focusing layout rather than style, afterall that is your job!</p>
-						<p class="lead">You won't find any of the Icing that bootstrap has but rather a more consice grid system with centering, a more functional file structure allowing you to extrand rather than over ride styles.</p>
+						<p class="lead">Dock is a simple Bootstrap based framework made to be as non restrictive as possible. Taking a focusing layout rather than style, after all that is your job!</p>
+						<p class="lead">You won't find any of the Icing that bootstrap has but rather a more concise grid system with centring, a more functional file structure allowing you to extend rather than over ride styles.</p>
 						<p class="lead">Made to be extensible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
 					</header>
 
