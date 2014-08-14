@@ -48,6 +48,11 @@
 						<p class="lead">Made to be extensible, it's possible to add your own button code or include what other UI frameworks have already made.</p>
 					</header>
 
+<div class="text-center">
+					<a href="https://github.com/adampatterson/Dock/archive/master.zip" class="btn">Download</a>
+					<a href="https://github.com/adampatterson/Dock/" class="btn">View on Github</a>
+</div>
+
 					<div class="code hidden">
 <pre><code class="language-php">function method_one (){
 	echo 'one ';
@@ -61,57 +66,6 @@ event::trigger('event_trigger');</code></pre>
 </div>
 
 					<div class="doc-section clearfix" id="grid">
-
-						<h2 class="large">Manual Grids</h2>
-						<div class="row show-grid">
-                            <div class="one"><span>.one</span></div>
-                        </div>
-
-                        <div class="row show-grid">
-                            <div class="one-half"><span>.one-half</span></div>
-                            <div class="one-half"><span>.one-half</span></div>
-                        </div>
-
-						<div class="row show-grid">
-                            <div class="one-third"><span>.one-third</span></div>
-                            <div class="one-third"><span>.one-third</span></div>
-                            <div class="one-third"><span>.one-third</span></div>
-                        </div>
-
-                        <div class="row show-grid">
-                            <div class="one-third"><span>.one-third</span></div>
-                            <div class="two-thirds"><span>.two-thirds</span></div>
-                        </div>
-
-                        <div class="row show-grid">
-                            <div class="one-quarter"><span>.one-quarter</span></div>
-                            <div class="one-quarter"><span>.one-quarter</span></div>
-                            <div class="one-quarter"><span>.one-quarter</span></div>
-                            <div class="one-quarter"><span>.one-quarter</span></div>
-                        </div>
-
-                        <div class="row show-grid">
-                            <div class="one-fifth"><span>.one-fifth</span></div>
-                            <div class="one-fifth"><span>.one-fifth</span></div>
-                            <div class="one-fifth"><span>.one-fifth</span></div>
-                            <div class="one-fifth"><span>.one-fifth</span></div>
-                            <div class="one-fifth"><span>.one-fifth</span></div>
-                        </div>
-
-                        <div class="row show-grid">
-                            <div class="one-sixth"><span>.one-sixth</span></div>
-                            <div class="one-sixth"><span>.one-sixth</span></div>
-                            <div class="one-sixth"><span>.one-sixth</span></div>
-                            <div class="one-sixth"><span>.one-sixth</span></div>
-                            <div class="one-sixth"><span>.one-sixth</span></div>
-                            <div class="one-sixth"><span>.one-sixth</span></div>
-                        </div>
-
-                        <div class="row show-grid">
-                            <div class="three-quarters"><span>.three-quarters</span></div>
-                            <div class="one-quarter"><span>.one-quarter</span></div>
-                        </div>
-
 
 						<h2 class="large">The Grid</h2>
 		
@@ -185,6 +139,56 @@ event::trigger('event_trigger');</code></pre>
                                 </div>
 
                             </div>
+                        </div>
+
+                        <h2 class="large">Manual Grids</h2>
+						<div class="row show-grid">
+                            <div class="one"><span>.one</span></div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-half"><span>.one-half</span></div>
+                            <div class="one-half"><span>.one-half</span></div>
+                        </div>
+
+						<div class="row show-grid">
+                            <div class="one-third"><span>.one-third</span></div>
+                            <div class="one-third"><span>.one-third</span></div>
+                            <div class="one-third"><span>.one-third</span></div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-third"><span>.one-third</span></div>
+                            <div class="two-thirds"><span>.two-thirds</span></div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                            <div class="one-fifth"><span>.one-fifth</span></div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                            <div class="one-sixth"><span>.one-sixth</span></div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="three-quarters"><span>.three-quarters</span></div>
+                            <div class="one-quarter"><span>.one-quarter</span></div>
                         </div>
 						
 					</div>
