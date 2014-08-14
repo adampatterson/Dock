@@ -54,9 +54,7 @@
 						<a href="https://github.com/adampatterson/Dock/" class="btn">View on Github</a>
 					</div>
 
-					<div class="doc-section clearfix" id="grid">
-						<p><strong>Simple extendable Less framework with Bootstrap roots</strong></p>
-
+					<div class="doc-section clearfix large" id="grid">
 						<h3>Why</h3>
 
 						<p><strong>Bootstrap is for Apps and not Websites.</strong></p>
