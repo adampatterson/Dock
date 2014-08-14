@@ -854,8 +854,7 @@
   float: left;
   min-height: 1px;
   position: relative;
-  padding-left:  (@gutter / 2);
-  padding-right: (@gutter / 2);
+  padding: 0 (@gutter / 2) 0 (@gutter / 2);
   .box-sizing(border-box);
   .clearfix();
   width: percentage(@percentage);
@@ -863,4 +862,3 @@
 
 .rgbize(@color: @white, @alpha: 1) {
   background: hsla(hue(@color), saturation(@color), lightness(@color), @alpha);}
-
