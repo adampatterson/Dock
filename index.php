@@ -192,18 +192,7 @@ event::trigger('event_trigger');</code></pre>
 	        </div>
 		</div>
 		
-
 		<div class="row">
-
-			<div class="md-12 page-header">
-	            <h1>Extensibility?</h1>
-	        </div>
-			<div class="md-12">
-	        	<p>Hey, You don't have any buttons, form layouts, or glitter?</p>
-			</div>
-        </div>
-
-		<div class="row hidden">
 
 			<div class="md-12 page-header">
 	            <h1>Typography</h1>
