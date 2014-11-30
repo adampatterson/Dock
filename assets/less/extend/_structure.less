@@ -1,0 +1,49 @@
+// Structural padding and margins
+@structure-loops: 150;
+@structure: 150px;
+
+.calc-padding-type-structure(@index, @class, @structure) {
+  .p-@{class}-@{index} {
+    padding-@{class}: @structure !important;
+  }
+}
+
+.calc-padding-structure(@index, @class, @structure) {
+  .p-@{index} {
+    padding: @structure !important;
+  }
+}
+
+.calc-margin-type-structure(@index, @class, @structure) {
+  .m-@{class}-@{index} {
+    margin-@{class}: @structure !important;
+  }
+}
+
+.calc-margin-structure(@index, @class, @structure) {
+  .m-@{index} {
+    margin: @structure !important;
+  }
+}
+
+.loop-padding-structure(@index, @class, @structure) when (@index >= 0) {
+  .calc-padding-type-structure(@index, @class, @structure);
+  .calc-padding-structure(@index, @class, @structure);
+  .loop-padding-structure((@index - 15), @class, (@structure  - 15));
+}
+
+.loop-margin-structure(@index, @class, @structure) when (@index >= 0) {
+  .calc-margin-type-structure(@index, @class, @structure);
+  .calc-margin-structure(@index, @class, @structure);
+  .loop-margin-structure((@index - 15), @class, (@structure  - 15));
+}
+
+.make-structure(@class) {
+  .loop-padding-structure(@structure-loops, @class, @structure);
+  .loop-margin-structure(@structure-loops, @class, @structure);
+}
+
+.make-structure(top);
+.make-structure(right);
+.make-structure(bottom);
+.make-structure(left);
